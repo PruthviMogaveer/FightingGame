@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+     color: rgb(38,46,49);
+   
+}
+html,body{
+     /* background-color: rgb(32,33,36); */
+    font-family: 'Foldit', cursive;
+font-family: 'Orbitron', sans-serif;
+
+
+}
+.container{
+     display: flex;
+     flex-direction: column;
+     margin: 10px;
+     padding: 10px;
+     align-items: center;
+}
+.title{
+    text-decoration: underline;
+}
+.character{
+display: flex;
+margin: 30px;
+
+
+}
+.firstCharacter,.secondCharacter{
+     display: flex;
+     flex-direction: column;
+align-items: center;
+    margin: 0 100px 0 100px;
+}
+.characterName{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.characterControl ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align:left ;
+    
+
+}
+.characterSpecification{
+    margin: 2rem 0 0 0 ;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.characterControl button{
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    border-radius:7%;
+    font-size: 1rem;
+    font-weight: 600    ;
+    width: 5rem;
+}
+.attack{
+    background-color: rgb(253,203,0);
+
+}
+.attack:hover{
+    background-color:rgb(38,46,49) ;
+color: rgb(253,203,0);
+}
+.heal{
+    background-color: #00FF00;
+
+}
+.heal:hover{
+    background-color:rgb(38,46,49) ;
+    color: #00FF00;
+}
+.characterControl{
+    margin: 0 0 30px 0;
+}
+.characterSpecification .characterPoint span{
+    font-size: 1.8rem;
+ 
+}
+.reset{
+   
+    text-align: center;
+}
+.reset button{
+    border:none;
+    padding: 10px;
+    border-radius: 8%;
+    width: 6rem;
+    background-color: #00FFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.reset button:hover{
+    background-color: rgb(38,46,49);
+    color: #00FFFF;
+}
