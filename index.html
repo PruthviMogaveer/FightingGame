@@ -33,7 +33,7 @@
                 </ul>
               </div>
               <div class="characterPoint">
-                <span>100</span>
+                <span id="player1Health">100</span>
               </div>
             </div>
           </div>
@@ -56,15 +56,38 @@
                 </ul>
               </div>
               <div class="characterPoint">
-                <span>100</span>
+                <span id="player2Health">100</span>
               </div>
             </div>
           </div>
         </div>
-        <div class="reset">
-        <button >Reset</button></div>
+        <div class="result" id="result"></div>
+        <div class="reset" onclick="game.reset(player1,player2)">
+          <button>Reset</button>
+        </div>
       </div>
     </div>
     <script src="./js/script.js"></script>
   </body>
+  <audio
+    src="./sounds/player1Attack.mp3"
+    style="display: none"
+    id="player1Attack"
+  ></audio>
+  <audio
+    src="./sounds/player2Attack.mp3"
+    style="display: none"
+    id="player2Attack"
+  ></audio>
+  <audio
+    src="./sounds/player1Heal.mp3"
+    style="display: none"
+    id="player1Heal"
+  ></audio>
+  <audio
+    src="./sounds/player2Heal.mp3"
+    style="display: none"
+    id="player2Heal"
+  ></audio>
+  <audio src="./sounds/victory.mp3" style="display: none" id="victory"></audio>
 </html>
