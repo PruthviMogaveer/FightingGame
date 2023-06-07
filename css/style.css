@@ -80,9 +80,11 @@ body {
 }
 .result {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: 1rem;
   font-weight: 600;
+  color: green;
+  margin: 2rem;
 }
 .reset {
   text-align: center;
